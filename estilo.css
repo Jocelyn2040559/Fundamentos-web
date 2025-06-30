@@ -1,0 +1,29 @@
+.empresa {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+
+.titulo {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.seccion1 {
+    position: relative;
+    display: inline-block;
+}
+
+.imagen1 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+button {
+    background-color: black;
+    color: white;
+
+}

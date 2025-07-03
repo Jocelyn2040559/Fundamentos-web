@@ -13,7 +13,14 @@ button {
 body {
     background-color: rgb(240, 240, 240);
 }
+<<<<<<< HEAD
 img{
     height: 300px;
     width: 250px;
 }
+=======
+
+.fin {
+    text-align: center;
+}
+>>>>>>> 5cfac2fb4c304c06db0599f8b65bc5087938983a

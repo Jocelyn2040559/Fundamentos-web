@@ -13,3 +13,7 @@ button {
 body {
     background-color: rgb(240, 240, 240);
 }
+img{
+    height: 300px;
+    width: 250px;
+}

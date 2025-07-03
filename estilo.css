@@ -2,6 +2,8 @@
     color: black;
     text-align: center;
     font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 2px black;
 }
 
 .titulo {
@@ -23,10 +25,14 @@
 
 
 button {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: yellow;
 
 }
 body {
-    background-color: antiquewhite;
+    background-color: #94b3fd;
+}
+
+.piePagina {
+    border: solid 2px black;
 }

@@ -1,0 +1,28 @@
+.empresa {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 2px black;
+}
+
+button {
+    background-color: white;
+    color: yellow;
+
+}
+body {
+    background-color: #94b3fd;
+}
+
+.piePagina {
+    border: solid 2px black;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.fin {
+    text-align: center;
+}

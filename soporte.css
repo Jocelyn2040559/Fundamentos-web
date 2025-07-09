@@ -1,8 +1,35 @@
 .empresa {
-    color: black;
+    color: #1e90ff;
     text-align: center;
     font-size: 60px;
     padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #1a1a1a;
+  padding: 10px 0;
+  border-bottom: 2px solid #1e90ff;
+}
+
+nav button {
+  background-color: #1e90ff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+nav button:hover {
+  background-color: #0d6efd;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 h1  {
@@ -81,9 +108,59 @@ button {
 
 }
 body {
-    background-color: rgb(240, 240, 240);
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f111a;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "✔️ ";
+  color: #1e90ff;
+}
+
+footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+  border-top: 2px solid #1e90ff;
+}
+
+footer h2 {
+  color: #1e90ff;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer button {
+  background-color: #1e90ff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+footer button:hover {
+  background-color: #0d6efd;
 }
 
 .fin {
-    text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
 }
+

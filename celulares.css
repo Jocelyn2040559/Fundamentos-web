@@ -18,7 +18,7 @@ nav {
     text-align: center;
     padding: 10px 0;
 }
-
+#f4f4f4
 nav button {
     background-color: #ffffff;
     border: none;
@@ -67,49 +67,51 @@ img {
     border-radius: 10px;
 }
 
-p {
-    text-align: justify;
-    line-height: 1.5;
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "✔️ ";
+  color: #1e90ff;
 }
 
 footer {
-    background-color: #1428a0;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+  border-top: 2px solid #1e90ff;
 }
 
-footer button {
-    background-color: #ffffff;
-    color: #1428a0;
-    border: none;
-    padding: 10px 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-footer button:hover {
-    background-color: #dcdcdc;
+footer h2 {
+  color: #1e90ff;
 }
 
 footer a {
-    text-decoration: none;
-    color: #1428a0;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-footer ul {
-    list-style-type: none;
-    padding: 0;
+footer button {
+  background-color: #1e90ff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
-footer li {
-    margin: 5px 0;
+footer button:hover {
+  background-color: #0d6efd;
 }
 
 .fin {
-    margin-top: 20px;
-    font-size: 0.9em;
-    color: #dcdcdc;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
 }
